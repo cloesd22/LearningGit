@@ -1,0 +1,702 @@
+/* Start Page Size Wrappers */
+
+.fancylaratext
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: table;
+	font-weight: 100;
+	font-family: 'Lato';
+	color: black;
+	font-size: 24px;
+}
+
+
+.Pagewrap
+	{
+		min-width:720px
+		max-width:1080px;
+		margin:0 auto;
+		text-align:center;
+		
+	}
+
+/* End Page Size Wrappers */
+
+/* Start Header Frame */
+
+	.HeadContainer
+	{
+		
+		
+		background:white;
+		text-align: center;
+		margins:0 auto;
+		min-width:1500px;
+		
+	
+-webkit-box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.46);
+-moz-box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.46);
+box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.46);
+	}
+
+	.LogoFrame
+		{
+			
+			border:hidden;
+			overflow:hidden;
+			display:inline-block;
+			z-index:1;
+			padding-top:30px;
+			padding-bottom:68px;
+			
+			
+		}
+		
+		
+		#BountyLogo {
+			height:100%;
+			width:35%;
+		}
+	
+	.NavFrame
+		{
+			display:inline-block;
+			border:hidden;
+			overflow:hidden;
+			z-index:1;
+			
+			max-height:100%;
+			width:1080px;
+			padding-top:30px;
+			padding-bottom:30px;
+			
+			
+		}
+	
+	.NavFrame ul li
+	{
+		display:inline-block;
+		
+		padding-left:50x;	
+		padding-right:100px;
+		
+
+		
+		padding-top:30px;
+		padding-bottom:30px;
+		
+			
+	}
+		
+		.LoginFrame
+		{
+			display:inline-block;
+			border:hidden;
+			overflow:hidden;
+			z-index:1;
+			
+			
+			padding-bottom:75px;
+			margins:0 auto;
+			
+		}
+
+/* End Header Frame */
+
+/* Start Body Frame */
+
+.ContentContainer
+{
+	
+	background:white;
+	position:relative;
+	top:30px;
+	width:1250px;
+	margin:0 auto;
+}
+
+#leftjustify
+{
+	background:white;
+	position:relative;
+	top:30px;
+	width:1250px;
+	margin:0 auto;
+	text-align:left;
+}
+
+
+	.FeaturedFrame
+			{
+				z-index:2;
+				margin-top:1%;
+				padding-bottom:20px;
+				background:black;
+				color:black;
+				width:600px;
+				margin:0 auto;
+				margin-bottom:30px;
+				text-align:center;
+				min-height:200px;
+				
+			}
+/* Start Bounty Toolbar */
+		
+		.ToolBar
+		
+		{
+			text-align:center;
+			height:45px;
+			width: 1250px;
+			display:inline-block;
+			
+			
+		}
+		.SearchField
+		{
+			z-index:2;
+			float:left;
+			display:inline-block;
+		}
+	
+		.SortBy
+		{
+			z-index:2;
+			float:right;
+			display:inline-block;
+		}
+		
+		.nicebutton2TB {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:25px;
+	width: 180px;	
+	display:inline-block;
+	float:left;
+	
+	
+	
+}
+
+.nicebutton2TB:hover {
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:1px;
+	height:25px;
+	width: 180px;	
+	text-align:center;
+	display:inline;
+	background-color:#E2E7E6;
+	display:inline-block;
+}
+
+.nicebuttonGO {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:25px;
+	width: 180px;	
+	text-align:center;
+	display:inline-block;
+	
+}
+
+.nicebuttonGO:hover {
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:1px;
+	height:25px;
+	width: 180px;	
+	text-align:center;
+	background-color:#E2E7E6;
+	display:inline-block;
+}
+	
+/* End Bounty Toolbar */
+	
+/* Start Bounty Listing */
+
+	.BountyContainer {
+		z-index:1;
+		width:100%;
+		
+		
+	}
+	
+		.BountyFrame {
+			top:3px;
+			display:inline-block;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #848484;
+			width:97.5%;
+			height:165px;
+			margin:0.5% 1.25% 0.5% 1.25%;
+		}
+		
+			.BountyImage {
+				
+  							
+ 				
+				display:inline-block;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				border: 1px solid #848484;
+				margin:0 auto;
+				height:165px;
+				width:15%;
+				background:	#E6E6E6;
+				margin:0;
+				overflow:hidden;
+				
+			}
+			
+			#BountyImageholder
+			 {
+				
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				border: 1px solid #848484;
+				
+				padding-top:7px;
+				height:165px;
+				width:165px;
+			}
+		
+			
+			.BountyBody {
+				
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				border: 1px solid #848484;
+				display:inline-block;
+				width:800px;
+				height:165px;
+				background:#DEDDE1;
+				margin:0 auto;
+				overflow:hidden;
+				text-align:left;
+				padding-left: 20px;
+								
+				font-size:15px;
+				font:Arial, Helvetica, sans-serif;
+				
+								
+			}
+						
+			.Gold {
+				
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				border: 1px solid #848484;
+				display:inline-block;
+				height:165px;
+				width:6%;
+				background:	#E6E6E6;
+				margin:0;
+				overflow:hidden;
+				text-align: center;
+				line-height: 165px;
+				font-size:15px;
+				font:Arial, Helvetica, sans-serif;
+				
+			}
+				
+			.Support {
+				
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				border: 1px solid #848484;
+				display:inline-block;
+				height:165px;
+				width:6%;
+				background:	#E6E6E6;
+				margin:0;
+				overflow:hidden;
+				text-align: center;
+				line-height: 165px;
+				font-size:15px;
+				font:Arial, Helvetica, sans-serif;
+			}
+			
+			.formbox
+			{
+				text-align:center;
+				left:400px;
+				width:800px;
+				height:1250px;
+				background-color:#CCCCCC;
+				
+				
+			}
+			.Bountytitle
+			{
+				font-size:20px;
+				font:Arial, Helvetica, sans-serif;
+				font-weight:600;
+				
+			}
+/* End Bounty Listing */
+
+/* Start Bounty entity */
+
+.Bountydesc 
+{
+	height:500px;
+	margin:0 auto;
+	background-color:#F0F0F0;
+	margin-bottom:30px;
+	min-width:700px;
+	max-width:1284px;
+}
+
+.bountysubmissions
+{
+	height:500px;
+	margin:0 auto;
+	background-color:#F0F0F0;
+	margin-bottom:30px;
+	min-width:700px;
+	max-width:1284px;
+}
+
+.Comments
+{
+	height:900px;
+	margin:0 auto;
+	background-color:#F0F0F0;
+	margin-bottom:30px;
+	min-width:700px;
+	max-width:1000px;
+}
+
+
+
+/* End Bounty entity */
+
+/* Bounty Create */
+
+.nicebuttonBountyIMG {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:35px;
+	width: 120px;	
+	
+}
+.nicebuttonBountyIMG:hover {
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:1px;
+	height:35px;
+	width: 120px;	
+	text-align:center;
+	background-color:#E2E7E6;
+	
+}
+
+#avatar2 {
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	
+	height:165px;
+	width:165px;
+}
+
+.textboxbig {
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+
+}
+
+.textbox3 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	height:25px;
+	width: 300px;
+	
+	
+}
+
+.bountycreatetable
+
+{
+	width:100%;
+	left:400px;
+}
+
+
+#newbountytable
+{
+	margin-left:250px;	
+}
+/* End Bounty Create*/
+
+/* Start Footer */
+
+.footer{
+		background:white;
+		text-align: center;
+		margins:0 auto;
+		min-width:1500px;
+		height:60px;
+		
+		
+	
+-webkit-box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.46);
+-moz-box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.46);
+box-shadow: 0px 2px 23px 2px rgba(0,0,0,0.46);
+
+}
+
+/* End Footer */
+
+/* Page specific*/
+
+#SignUpText {
+	text-align:center;
+	font-size:25px;
+	font:Arial, Helvetica, sans-serif;
+}
+.PageHeading {
+	text-align:center;
+	font-size:25px;
+	font:Arial, Helvetica, sans-serif;
+	
+}
+.PageText {
+	text-align:center;
+	font-size:15px;
+	font:Arial, Helvetica, sans-serif;
+}
+
+#RegistrationModule {
+	text-align:center;
+}
+
+.contentwindow
+{
+	text-align:center;
+}
+
+.AccountBox {
+	margin: 0 auto;
+	display:inline-block;
+	line-height:150%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	background:#DEDDE1;
+	min-height:400px;
+	min-height:200px;
+}
+#accountdata {
+	float:right;
+	text-align:justify;
+	margin: 0 auto;
+	padding-top:45px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	border-spacing: 100px 5px;
+}
+
+#avatar {
+	display:inline-block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	z-index:8;
+	overflow:hidden;
+	margin-top:30px;
+	padding:20px;
+	margin-bottom:80px;
+	margin-right:-20px;
+	margin-left:30px;
+}
+
+
+
+#buttonholder
+{
+	 text-align: center;
+}
+
+/* Page specific */
+
+
+.textboxTB {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:25px;
+	width: 275px;
+	dispaly:inline;
+}
+/* REUSABLE PAGE ELEMENTS */
+
+.textbox {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:25px;
+	width: 275px;
+}
+
+
+
+
+
+
+
+.RadioButton {
+	text-align:center
+}
+::-webkit-input-placeholder {
+ text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+ text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+ text-align: center;
+}
+
+:-ms-input-placeholder {
+ text-align: center;
+}
+.subheading {
+	font-size:16px;
+	font:Arial, Helvetica,
+}
+
+.nicebutton {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:25px;
+	width: 275px;	
+	text-align:center;
+}
+
+.nicebutton:hover {
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:1px;
+	height:25px;
+	width: 275px;	
+	text-align:center;
+	background-color:#E2E7E6;
+}
+.nicebutton2 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:25px;
+	width: 180px;	
+	text-align:center;
+	
+}
+
+.nicebutton2:hover {
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:1px;
+	height:25px;
+	width: 180px;	
+	text-align:center;
+	background-color:#E2E7E6;
+}
+
+
+.headerbutton {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:0;
+	height:50px;
+	width: 100px;	
+	text-align:center;
+	background-color:#000;
+	color:#FFFFFF;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.headerbutton:hover {
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #848484;
+	outline:1px;
+	height:50px;
+	width: 100px;	
+	text-align:center;
+	background-color:#CCCCCC;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+
+}
+
+.captchaholder{
+	padding:10px;
+	padding-right:67px;
+	margin:0 auto;
+	display:inline-block;
+	width:20%;
+	
+		
+}
+
+/* REUSABLE PAGE ELEMENTS */
+
+
