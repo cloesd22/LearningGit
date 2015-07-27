@@ -25,4 +25,6 @@ Route::get('/login','Controlfreak@login');
 
 Route::get('articles','ArticlesController@index');
 
+Route::get('articles/{id}','ArticlesController@show');
+
 
