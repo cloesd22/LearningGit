@@ -23,5 +23,6 @@ Route::get('/account','Controlfreak@account');
 
 Route::get('/login','Controlfreak@login');
 
+Route::get('articles','ArticlesController@index');
 
 
