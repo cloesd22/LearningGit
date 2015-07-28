@@ -27,4 +27,8 @@ Route::get('articles','ArticlesController@index');
 
 Route::get('articles/{id}','ArticlesController@show');
 
+Route::get('Egle/{id}','EgleController@starter');
+
+Route::get('Egle','EgleController@start');
+
 
