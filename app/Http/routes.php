@@ -31,4 +31,6 @@ Route::get('Egle/{id}','EgleController@starter');
 
 Route::get('Egle','EgleController@start');
 
+Route::get('Nig', 'slavedriver@listem');
+
 
